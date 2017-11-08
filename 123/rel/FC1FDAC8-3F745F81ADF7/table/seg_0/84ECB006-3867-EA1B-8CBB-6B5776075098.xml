@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84ECB006-3867-EA1B-8CBB-6B5776075098" name="Users">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:45:57 UTC</createdTime>
+<generatorID>92F38EFA-28BF-0F7E-48B2-D8A07E25DA86</generatorID>
+<ownerDesignName>123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="81493973-158C-EEBD-416C-54F4D201BFE2">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:45:57 UTC</createdTime>
+<generatorID>8811E08A-674A-655E-65F8-9EA251A78B79</generatorID>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Role" id="2302B644-DFBB-D535-EB66-35F5C1844CBF">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:45:57 UTC</createdTime>
+<generatorID>F7E06109-B00C-DD21-DAFA-DEB6CA158163</generatorID>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="DFE3ABE1-E50C-1E89-A6DC-7D8E81D3DCA7">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:45:57 UTC</createdTime>
+<generatorID>07A8FDA0-F374-D2E5-B2D7-AA85525A2AF5</generatorID>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="CD2291B2-92C2-7381-F1BD-BC6DA01C3BBE">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:45:57 UTC</createdTime>
+<generatorID>AA7E2C3D-2A65-DB60-BED9-C054D564BC2D</generatorID>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pass_Expr" id="FFB57710-9977-60C2-6680-9390C4AE87DF">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:45:57 UTC</createdTime>
+<generatorID>7847F4E7-61E4-5925-1C40-D643556043E2</generatorID>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E684CD63-F4D2-BC18-9D0D-F00359A403FD" name="Users_PK">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:45:57 UTC</createdTime>
+<generatorID>DD02185D-D687-8D30-3607-B341FAA78B41</generatorID>
+<ownerDesignName>123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81493973-158C-EEBD-416C-54F4D201BFE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

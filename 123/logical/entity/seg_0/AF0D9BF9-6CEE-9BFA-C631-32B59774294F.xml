@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF0D9BF9-6CEE-9BFA-C631-32B59774294F" name="Training">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:35:55 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="7EB62C3D-1A91-A208-30F2-0DA4A18CE307">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:37:17 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Company" id="498D6743-2D1B-9805-2F83-AB5C8D33BF82">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:37:40 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="From_Day" id="64C83B0C-902C-BD80-895B-C99AC0E944AD">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:38:10 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Until_Day" id="74DDD49A-ADE2-4976-DE23-4E55B541F15F">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:38:41 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="46BBCA80-ED3B-57F3-76B5-3617B66BCE09">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:38:55 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Constent" id="CA6DDDD4-451A-93EC-803C-FF91D3698FC5">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:39:13 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Place" id="E866EB8D-6E7C-529E-3BD8-70035F36CF4D">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:39:33 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Theme" id="283D9CCC-D6E9-A9E9-639F-2F99F0C312EA">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:39:50 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<ownDataTypeParameters>48,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Author_Id" id="F75BAE43-7DA7-D443-C56B-A96EAE26A0B1">
+<createdBy>winroot</createdBy>
+<createdTime>2017-11-08 11:08:12 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADD8A799-4BAB-DAB7-AA00-6A17CF378BA9" name="Training PK">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:37:22 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7EB62C3D-1A91-A208-30F2-0DA4A18CE307</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

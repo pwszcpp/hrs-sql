@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92F38EFA-28BF-0F7E-48B2-D8A07E25DA86" name="Users">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:41:07 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="8811E08A-674A-655E-65F8-9EA251A78B79">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:41:15 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Role" id="F7E06109-B00C-DD21-DAFA-DEB6CA158163">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:41:32 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="07A8FDA0-F374-D2E5-B2D7-AA85525A2AF5">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:41:54 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="AA7E2C3D-2A65-DB60-BED9-C054D564BC2D">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:42:15 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pass_Expr" id="7847F4E7-61E4-5925-1C40-D643556043E2">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:44:47 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD02185D-D687-8D30-3607-B341FAA78B41" name="Users PK">
+<createdBy>Ark</createdBy>
+<createdTime>2017-11-07 22:41:29 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FC1FDAC8-C3DB-E2AB-4965-3F745F81ADF7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8811E08A-674A-655E-65F8-9EA251A78B79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
