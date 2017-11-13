@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="123" id="4960B0F9-05D0-32CC-8C73-FF29637834D8" version="3.5">
-<createdBy>Ark</createdBy>
-<createdTime>2017-11-07 22:14:57 UTC</createdTime>
-<ownerDesignName>123</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>4960B0F9-05D0-32CC-8C73-FF29637834D8</designId>
-</OSDM_Design>
