@@ -1,0 +1,4 @@
+'Employee';'Manager';'HR expert';'CEO';'Administrator';'Instructors';'External individuals';'Setup administrator'
+'kh3ajj34';'1ik8zff1';'9O9qKBZ9';'mtg67BXa';'NYGRwfKs';'jcbD73mM';'QexzjGHA';'fAOL2CBy';'CJZXCvSN';'BgxJMsT8'
+'DISABLED';'ENABLED'
+DATEADD(Day,30,CURRENT_DATE)
