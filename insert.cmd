@@ -3,11 +3,12 @@
 setlocal enabledelayedexpansion
 cls
 
-if "%3"=="" goto usage
+if "%4"=="" goto usage
 
 set tablename=%1
 set datafile=%2
 set records=%3
+set pk_seq=%4
 
 if exist %tablename%.sql del %tablename%.sql
 
@@ -33,7 +34,11 @@ echo Rekord: %record% z %records%
 
 echo INSERT INTO HRS_SCH.%tablename%>> %tablename%.sql
 echo VALUES (>> %tablename%.sql
-echo nextval('HRS_SCH.%tablename%_seq'),>> %tablename%.sql
+if %4==1 (
+  echo nextval('HRS_SCH.%tablename%_seq'^),>> %tablename%.sql
+) ELSE (
+  REM bez PK with sequence
+)
 
 set row_number=1
 :next_row
@@ -79,8 +84,8 @@ if %record% GTR %records% goto end
 goto :next_record
 
 :usage
-echo syntax: %0 table_name data_file number_of_records
-echo example: %0 Users usersdata.txt 10
+echo syntax: %0 table_name data_file number_of_records PK_sequence
+echo example: %0 Users usersdata.txt 10 1
 
 :end
 endlocal
