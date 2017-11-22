@@ -10,10 +10,16 @@ CREATE SEQUENCE HRS_SCH.TRAINING_SEQ START WITH 1 MAXVALUE 99999;
 CREATE CACHED TABLE HRS_SCH."Users"(
     "Id" INT DEFAULT (NEXT VALUE FOR HRS_SCH.USERS_SEQ) NOT NULL,
     "Role" VARCHAR_IGNORECASE(24) NOT NULL,
-    "Password" VARCHAR_IGNORECASE(24) NOT NULL,
+    "Pass" VARCHAR_IGNORECASE(24) NOT NULL,
     "Status" ENUM('DISABLED','ENABLED') NOT NULL,
-    "Pass_Expr" DATE
-);            
+    "Pass_Expire" DATE,
+    "Username" VARCHAR_IGNORECASE(24),
+    "e-mail" VARCHAR_IGNORECASE(24),
+    "Pass_changed_date" DATE,
+    "Login_last_success" DATE,
+    "Login_last_failed" DATE,
+    "Login_attempts_failed" INT
+);                            
 ALTER TABLE HRS_SCH."Users" ADD CONSTRAINT HRS_SCH.CONSTRAINT_4 PRIMARY KEY("Id");            
 -- 0 +/- SELECT COUNT(*) FROM HRS_SCH."Users";
 CREATE CACHED TABLE HRS_SCH."Roles"(
@@ -43,16 +49,21 @@ CREATE CACHED TABLE HRS_SCH."Training"(
     "Consent" BOOL NOT NULL,
     "Place" VARCHAR_IGNORECASE(24) NOT NULL,
     "Theme" VARCHAR_IGNORECASE(48) NOT NULL,
-    "Author_Id" INT NOT NULL
+    "Author_Id" INT NOT NULL,
+    "Cancelled" ENUM('No','Yes') NOT NULL,
+    "No_of_seats" INT NOT NULL
 );       
 ALTER TABLE HRS_SCH."Training" ADD CONSTRAINT HRS_SCH.CONSTRAINT_4F PRIMARY KEY("Id");        
 -- 0 +/- SELECT COUNT(*) FROM HRS_SCH."Training";             
-CREATE CACHED TABLE HRS_SCH."Training_list"(
+CREATE CACHED TABLE HRS_SCH."Users_Training_list"(
     "Training_ID" INT NOT NULL,
     "Users_ID" INT NOT NULL,
-    "Note" VARCHAR_IGNORECASE(48)
+    "Note" VARCHAR_IGNORECASE(48),
+    "Date_of_sign" DATE NOT NULL,
+    "Cancelled" ENUM('No','Yes') NOT NULL,
+    "Agreed" ENUM('No', 'Yes')
 );            
-ALTER TABLE HRS_SCH."Training_list" ADD CONSTRAINT HRS_SCH.CONSTRAINT_D PRIMARY KEY("Training_ID", "Users_ID");               
+
 -- 0 +/- SELECT COUNT(*) FROM HRS_SCH."Training_list";        
 ALTER TABLE HRS_SCH."Training_list" ADD CONSTRAINT HRS_SCH.CONSTRAINT_DC FOREIGN KEY("Training_ID") REFERENCES HRS_SCH."Training"("Id") ON DELETE CASCADE ON UPDATE CASCADE NOCHECK;          
 ALTER TABLE HRS_SCH."Roles" ADD CONSTRAINT HRS_SCH.CONSTRAINT_4B7 FOREIGN KEY("Permission") REFERENCES HRS_SCH."Permissions"("Id") NOCHECK;   

@@ -9,9 +9,15 @@ CREATE SEQUENCE HRS_SCH.USERS_SEQ START WITH 1 MAXVALUE 99999;
 CREATE CACHED TABLE HRS_SCH."Users"(
     "Id" INT DEFAULT (NEXT VALUE FOR HRS_SCH.USERS_SEQ) NOT NULL,
     "Role" VARCHAR_IGNORECASE(24) NOT NULL,
-    "Password" VARCHAR_IGNORECASE(24) NOT NULL,
+    "Pass" VARCHAR_IGNORECASE(24) NOT NULL,
     "Status" ENUM('DISABLED','ENABLED') NOT NULL,
-    "Pass_Expr" DATE
+    "Pass_Expire" DATE,
+    "Username" VARCHAR_IGNORECASE(24),
+    "e-mail" VARCHAR_IGNORECASE(24),
+    "Pass_changed_date" DATE,
+    "Login_last_success" DATE,
+    "Login_last_failed" DATE,
+    "Login_attempts_failed" INT
 );            
 ALTER TABLE HRS_SCH."Users" ADD CONSTRAINT HRS_SCH.CONSTRAINT_4 PRIMARY KEY("Id");            
 -- 0 +/- SELECT COUNT(*) FROM HRS_SCH."Users";
