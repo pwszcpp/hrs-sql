@@ -12,7 +12,7 @@ set pk_seq=%4
 
 if exist %tablename%.sql del %tablename%.sql
 
-REM Check number of lines in data file and assign the number (minus header row)to the NR variable like in AWK
+REM Check number of lines in data file and assign the number (minus header row) to the NR variable like in AWK
 for /f %%a in ('FINDSTR /R /N /C:"^.*" %datafile% ^| find /c ":"') do set /a NR=%%a-1
 echo Liczba wierszy w pliku z danymi (%datafile%): %NR%
 

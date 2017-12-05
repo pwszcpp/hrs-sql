@@ -1,0 +1,6 @@
+#Contractor_ID;#Users_ID;#Note;#Active_Worker;#Participation
+1;2;3;4;5;6;7;8;9;10
+1;2;3;4;5;6;7;8;9;10
+'staly klient';'';'';'staly klient';'';'';'';'';'';''
+1;1;1;0;1;1;1;0;1;1
+'Yes';'Yes';'Yes';'Yes';'No';'Yes';'No';'Yes';'Yes';'Yes'
