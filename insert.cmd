@@ -63,6 +63,10 @@ REM Set a random field in the range of 1 to the number of fields in a current ro
 set /a rand_field=(%RANDOM%*%NF%/32768)+1
 
 if "!f[%row_number%]!"=="Pass" set rand_field=%record%
+if "!f[%row_number%]!"=="Start_date" set rand_field=%record%
+if "!f[%row_number%]!"=="End_date" set rand_field=%record%
+if "!f[%row_number%]!"=="Agreed" set rand_field=%record%
+if "!f[%row_number%]!"=="Disagree_reason" set rand_field=%record%
 
 REM Get random field from current row
 for /f "tokens=%rand_field% delims=;" %%d in ("%line%") do (
