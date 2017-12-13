@@ -1,0 +1,7 @@
+#Users_Id;#Employment_arrangement;#Base_salary;#Seniority;#Salary_supplement;#Employment_status
+1;2;3;4;5;6;7;8;9;10
+'Full time';'Part time';'Full time';'Full time';'Full time';'Part time';'Full time';'Full time';'Part time';'Full time'
+'2500.00';'3100.00';'3600.00';'4300.00';'2900.00';'4700.00';'5000.00';'4200.00';'3300.00';'5500.00'
+1;2;3;4;5;6;7;8;9;10
+'1000.00';'500.00';'1200.00';'1000.00';'1800.00';'1000.00';'900.00';'1300.00';'700.00';'600.00'
+'Permanent';'Term contract';'Permanent';'Term contract';'Permanent';'Term contract';'Permanent';'Term contract';'Permanent';'Term contract'
