@@ -1,0 +1,5 @@
+#Name;#Min_salary;#Max_salary;#Max_percent_salary_supplement
+'Supervisor';'Boss';'Shift Supervisor';'Deputy Director';'Manager'
+'2300.00';'3500.00';'2000.00';'3100.00';'2700.00'
+'3100.00';'4200.00';'2800.00';'3900.00';'3400.00'
+'0.30';'0.50';'0.30';'0.40';'0.40'

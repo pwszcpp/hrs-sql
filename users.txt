@@ -1,4 +1,4 @@
-#Role;#Pass;#Status;#Pass_Expr;#Username;#e-mail;#Pass_changed_date;#Login_last_success;#Login_last_failed;#Login_attempts_failed;#Address;#Employment_start_date;#Position;#TAX_office
+﻿#Role;#Pass;#Status;#Pass_Expr;#Username;#e-mail;#Pass_changed_date;#Login_last_success;#Login_last_failed;#Login_attempts_failed;#Address;#Employment_start_date;#Position;#TAX_office
 'Employee';'Manager';'HR expert';'CEO';'Administrator';'Instructors';'External individuals';'Setup administrator'
 'kh3ajj34';'1ik8zff1';'9O9qKBZ9';'mtg67BXa';'NYGRwfKs';'jcbD73mM';'QexzjGHA';'fAOL2CBy';'CJZXCvSN';'BgxJMsT8'
 0;1
@@ -11,5 +11,4 @@ DATEADD(Day,2,CURRENT_DATE);DATEADD(Day,3,CURRENT_DATE);DATEADD(Day,4,CURRENT_DA
 1;1;2;3;1;2;1;3;2;1
 'Oświęcim, ul. Polna 5';'Zator, ul. Pokoju 7';'Brzeszcze, ul. Andersa 65/4';'Kęty, ul. Szewczyka 24';'Bielsko-Biała, ul. Beskidzka 45/2';'Katowice, ul. Chorzowska 24';'Chrzanów, ul. Trzebińska 23/5';'Trzebinia, ul. Spokojna 23';'Bieruń, ul. Węglowa 23/1';'Tychy, ul. Filaretów 56'
 DATEADD(Year,-1,CURRENT_DATE);DATEADD(Year,-2,CURRENT_DATE);DATEADD(Year,-3,CURRENT_DATE);DATEADD(Year,-4,CURRENT_DATE);DATEADD(Year,-5,CURRENT_DATE);DATEADD(Year,-6,CURRENT_DATE);DATEADD(Year,-7,CURRENT_DATE);DATEADD(Year,-8,CURRENT_DATE);DATEADD(Year,-9,CURRENT_DATE);DATEADD(Year,-10,CURRENT_DATE)
-'Supervisor';'Boss';'Shift Supervisor';'Deputy Director';'Manager'
 'US Oświęcim';'US Oświęcim';'US Oświęcim';'US Oświęcim';'US Bielsko-Biała';'US Katowice';'US Chrzanów';'US Chrzanów';'US Tychy';'US Tychy'
