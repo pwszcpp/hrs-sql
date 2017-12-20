@@ -1,11 +1,11 @@
-﻿#Role;#Pass;#Status;#Pass_Expr;#Username;#e-mail;#Pass_changed_date;#Login_last_success;#Login_last_failed;#Login_attempts_failed;#Address;#Employment_start_date;#Position;#TAX_office
+#Role;#Pass;#Status;#Pass_Expr;#Username;#e-mail;#Pass_changed_date;#Login_last_success;#Login_last_failed;#Login_attempts_failed;#Address;#Employment_start_date;#TAX_office
 'Employee';'Manager';'HR expert';'CEO';'Administrator';'Instructors';'External individuals';'Setup administrator'
 'kh3ajj34';'1ik8zff1';'9O9qKBZ9';'mtg67BXa';'NYGRwfKs';'jcbD73mM';'QexzjGHA';'fAOL2CBy';'CJZXCvSN';'BgxJMsT8'
-0;1
-DATEADD(Day,30,CURRENT_DATE)
+0;1;1;1;1;1;0;1;1;0
+DATEADD(Day,30,CURRENT_DATE);DATEADD(Day,30,CURRENT_DATE);DATEADD(Day,30,CURRENT_DATE);DATEADD(Day,30,CURRENT_DATE);DATEADD(Day,30,CURRENT_DATE);DATEADD(Day,30,CURRENT_DATE);DATEADD(Day,30,CURRENT_DATE);DATEADD(Day,30,CURRENT_DATE);DATEADD(Day,30,CURRENT_DATE);DATEADD(Day,30,CURRENT_DATE)
 'user1';'user2';'user3';'user4';'user5';'user6';'user7';'user8';'user9';'user10'
-'user1@comapny.com';'user2@comapny.com';'user3@comapny.com';'user4@comapny.com';'user5@comapny.com';'user6@comapny.com';'user7@comapny.com';'user8@comapny.com';'user9@comapny.com';'user10@comapny.com'
-CURRENT_DATE()
+'user1@company.com';'user2@company.com';'user3@company.com';'user4@company.com';'user5@company.com';'user6@company.com';'user7@company.com';'user8@company.com';'user9@company.com';'user10@company.com'
+CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE()
 DATEADD(Day,1,CURRENT_DATE);DATEADD(Day,2,CURRENT_DATE);DATEADD(Day,3,CURRENT_DATE);DATEADD(Day,4,CURRENT_DATE);DATEADD(Day,5,CURRENT_DATE);DATEADD(Day,6,CURRENT_DATE);DATEADD(Day,7,CURRENT_DATE);DATEADD(Day,8,CURRENT_DATE);DATEADD(Day,9,CURRENT_DATE);DATEADD(Day,10,CURRENT_DATE)
 DATEADD(Day,2,CURRENT_DATE);DATEADD(Day,3,CURRENT_DATE);DATEADD(Day,4,CURRENT_DATE);DATEADD(Day,5,CURRENT_DATE);DATEADD(Day,6,CURRENT_DATE);DATEADD(Day,7,CURRENT_DATE);DATEADD(Day,8,CURRENT_DATE);DATEADD(Day,9,CURRENT_DATE);DATEADD(Day,10,CURRENT_DATE);DATEADD(Day,11,CURRENT_DATE)
 1;1;2;3;1;2;1;3;2;1
