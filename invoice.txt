@@ -1,18 +1,16 @@
-#Seller_Name;#Seller_Address;#Seller_NIP;#Seller_Account_Number;#Buyer_Name;#Buyer_Address;#Buyer_NIP;#Payment_Method;#Issue_Date;#Sale_Date;#Payment_Date;#Goods_Service;#Quantity;#Net_Price;#TAX;#Gross_Price;#Document_Issued
-'Our company'
-'Oswiecim, ul. Zamkowa 5'
-5491213145
-'01222233330000111122223333'
+#Seller_Name;#Seller_Address;#Seller_NIP;#Seller_Account_Number;#Buyer_Name;#Buyer_Address;#Buyer_NIP;#Payment_Method;#Sale_Date;#Payment_Date;#Goods_Service;#Quantity;#Net_Price;#TAX;#Gross_Price
+'Our company';'Our company';'Our company';'Our company';'Our company';'Our company';'Our company';'Our company';'Our company';'Our company'
+'Oswiecim, ul. Zamkowa 5';'Oswiecim, ul. Zamkowa 5';'Oswiecim, ul. Zamkowa 5';'Oswiecim, ul. Zamkowa 5';'Oswiecim, ul. Zamkowa 5';'Oswiecim, ul. Zamkowa 5';'Oswiecim, ul. Zamkowa 5';'Oswiecim, ul. Zamkowa 5';'Oswiecim, ul. Zamkowa 5';'Oswiecim, ul. Zamkowa 5'
+5491213145;5491213145;5491213145;5491213145;5491213145;5491213145;5491213145;5491213145;5491213145;5491213145
+'01222233330000111122223333';'01222233330000111122223333';'01222233330000111122223333';'01222233330000111122223333';'01222233330000111122223333';'01222233330000111122223333';'01222233330000111122223333';'01222233330000111122223333';'01222233330000111122223333';'01222233330000111122223333'
 'Company Name 1';'Company Name 2';'Company Name 3';'Company Name 4';'Company Name 5';'Company Name 6';'Company Name 7';'Company Name 8';'Company Name 9';'Company Name 10'
 'City1, Sample Street 1';'City2, Sample Street 2';'City3, Sample Street 3';'City4, Sample Street 4';'City5, Sample Street 5';'City6, Sample Street 6';'City7, Sample Street 7';'City8, Sample Street 8';'City9, Sample Street 9';'City10, Sample Street 10'
 5491234567;5497654321;5492345678;5498765432;5493456789;5499876543;5490123456;5496543210;5491357924;5494297531
-'cash';'transfer'
-CURRENT_DATE()
-CURRENT_DATE()
-DATEADD(Day,14,CURRENT_DATE)
+'cash';'transfer';'transfer';'transfer';'transfer';'transfer';'cash';'transfer';'cash';'transfer'
+CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE();CURRENT_DATE()
+DATEADD(Day,14,CURRENT_DATE);DATEADD(Day,14,CURRENT_DATE);DATEADD(Day,14,CURRENT_DATE);DATEADD(Day,14,CURRENT_DATE);DATEADD(Day,14,CURRENT_DATE);DATEADD(Day,14,CURRENT_DATE);DATEADD(Day,14,CURRENT_DATE);DATEADD(Day,14,CURRENT_DATE);DATEADD(Day,14,CURRENT_DATE);DATEADD(Day,14,CURRENT_DATE)
 'Training Name 1';'Training Name 2';'Training Name 3';'Training Name 4';'Training Name 5';'Training Name 6';'Training Name 7';'Training Name 8';'Training Name 9';'Training Name 10'
 5;7;8;6;10;7;9;10;8;9
 '1000.00';'2000.00';'1500.00';'1200.00';'1800.00';'2500.00';'2000.00';'1000.00';'3000.00';'1900.00'
-23
+23;23;23;23;23;23;23;23;23;23
 '1250.00';'2450.00';'1900.00';'1540.00';'2300.00';'3150.00';'2450.00';'1250.00';'3750.00';'2380.00'
-'Abacki';'Babacki';'Abacki';'Babacki';'Abacki';'Babacki';'Abacki';'Babacki';'Abacki';'Babacki'
